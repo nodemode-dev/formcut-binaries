@@ -8,7 +8,7 @@ here and checks every file against the SHA-256 recorded in
 one file differs, nothing is installed.
 
 This repository holds text only. The binaries live on the
-[releases](https://github.com/nodemode-ai/formcut-binaries/releases) page, never
+[releases](https://github.com/nodemode-dev/formcut-binaries/releases) page, never
 in the git history.
 
 ## What a release holds
@@ -37,7 +37,7 @@ ffmpeg-lgpl-7.1.5-<triple>/
 ```
 
 formcut builds the download address as
-`https://github.com/nodemode-ai/formcut-binaries/releases/download/ffmpeg-<version>/ffmpeg-lgpl-<version>-<triple>.tar.gz`,
+`https://github.com/nodemode-dev/formcut-binaries/releases/download/ffmpeg-<version>/ffmpeg-lgpl-<version>-<triple>.tar.gz`,
 so the tag and the file names must be exactly these. `FORMCUT_FFMPEG_RELEASE`
 points formcut at a mirror holding the same files.
 
